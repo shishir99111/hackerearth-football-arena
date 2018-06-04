@@ -1,0 +1,18 @@
+<div class="dynamic-layout-item dynamic-layout-col-4 bootcards-cards" ng-controller="cardController">
+    <div class="panel panel-default">
+        <div class="list-group">
+            <div class="list-group-item">
+                <h4 class="list-group-item-heading">{{it.data.name}}</h4>
+            </div>
+            <!-- disp -->
+            <div class="list-group-item ">
+                <p class="list-group-item-text pd20">Nationality: {{it.data.nationality}}</p>
+                <p class="list-group-item-text">Club: {{it.data.club}}</p>
+                <p class="list-group-item-text pd20">Rating: {{it.data.rating}}</p>
+                <p class="list-group-item-text">Age: {{it.data.age}}</p>
+                <img ng-src="app/assets/Pictures/{{it.data.name}}.png" />
+                <button class="btn btn-sm btn-info" ng-click="details(it.data.name)">More Info</button>
+            </div>
+        </div>
+    </div>
+</div>

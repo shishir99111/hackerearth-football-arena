@@ -1,0 +1,45 @@
+{
+  "name": "footballers-arena-backend",
+  "version": "1.0.0",
+  "description": "A pseudo Full Stack web app for Footballers Arena, Which lists all the best footballers.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js ./ --quiet --cache --ignore-pattern .gitignore",
+    "debug": "nodemon --inspect=5861 index.js"
+  },
+  "keywords": [],
+  "author": "Shishir Sonekar <shishir.sr01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "boom": "^5.2.0",
+    "co": "^4.6.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.5.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.2",
+    "joi": "^10.6.0",
+    "joi-error-formatter": "0.5.3",
+    "lodash": "4.17.5",
+    "moment": "^2.22.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.15.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2",
+    "shortid": "^2.2.8",
+    "useragent": "^2.2.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=6.9.4"
+  }
+}

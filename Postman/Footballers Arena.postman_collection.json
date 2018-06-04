@@ -1,0 +1,62 @@
+{
+	"info": {
+		"name": "Footballers Arena",
+		"_postman_id": "21acc363-2514-64ef-b545-38bf29554ad1",
+		"description": "Hackerearth Challenge for Full Stack Developer in Gyanmatrix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Paginated Footballers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}:{{port}}/api/v1/footballers?limit=10",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"v1",
+						"footballers"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get Footballer by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}:{{port}}/api/v1/footballer/Cristiano Ronaldo",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"v1",
+						"footballer",
+						"Cristiano Ronaldo"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
