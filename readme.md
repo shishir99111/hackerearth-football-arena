@@ -1,4 +1,4 @@
-# Gyanmatrix - Footballers Arena Frontend
+# Footballers Arena Frontend
 > A pseudo Full Stack web app for Footballers Arena, Which lists all the best footballers.
 
 # TechStack Requirement:
@@ -33,7 +33,7 @@ API_BASE_URL=http://127.0.0.1:5510
 
 
 
-# Gyanmatrix - Footballers Arena Backend
+# Footballers Arena Backend
 > A pseudo Full Stack web app for Footballers Arena, Which lists all the best footballers.
 
 # TechStack Requirement:
